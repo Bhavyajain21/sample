@@ -15,7 +15,7 @@ body{
     background: url("restaurant-logo_large.png") no-repeat;
     height: 150px;
     width: 150px;
-    margin: 10px 15px 10px 0px;
+    margin: 10px 15px 10px 0;
 }
 
 .navbar-brand{
@@ -29,9 +29,9 @@ body{
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: .75;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height:.75;
 }
 
 .navbar-brand a:hover,.navbar-brand a:focus{
@@ -82,6 +82,65 @@ color: #557c3e;
     padding-right: 15px;
 }
 
+.navbar-header button.navbar-toggle{
+        border:2px solid #61122f;
+        padding:-5px;
+   }
+.icon-bar{
+    border: 2px solid #61122f;
+    margin:1px;
+    padding: -2px;
+    
+}
+
+
+.navbar-header button.navbar-toggle{
+        clear:both;
+        margin-top: -30px;
+}
+
+@media (min-width:1200px){
+    
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    #logo-img{
+        background: url("restaurant-logo_medium.png") no-repeat;
+        width:100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+}
+
+@media(max-width:767px){
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+    .navbar-brand p{
+        font-size: .6em;
+        margin-top:12px;
+    }
+    .navbar-brand p img{
+        height: 20px;
+    }
+    #bs-example-navbar-collapse-1 a{
+        font-size:1.2em;
+        vertical-align: center;
+    }
+    #bs-example-navbar-collapse-1 a span{
+        font-size: 1em;
+        margin-right:5px;
+    }
+}
 
 
 
